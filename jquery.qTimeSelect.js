@@ -1,3 +1,9 @@
+/*
+* jQuery qTimeSelect
+* @requires jQuery v1.5.0 or later
+* @author Ahmed Abdellatif Abouelezz <ahmedsql@gmail.com>
+* is released under the MIT License <http://www.opensource.org/licenses/mit-license.php>
+*/
 (function ($) {
     $.fn.qTimeSelect = function (update_only) {
         var elem_name = $(this).attr('name');
